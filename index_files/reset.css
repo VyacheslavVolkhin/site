@@ -79,33 +79,35 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: 'Open sans', sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
 body {
-  -webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: touch;
 
-  /*   -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%; */
+    /*   -ms-text-size-adjust: 100%;
+      -moz-text-size-adjust: 100%;
+      -webkit-text-size-adjust: 100%; */
 }
 *,
 *:after,
 *:before {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 hr {
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box;
-  height: 0;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
 }
 article,
 aside,
@@ -120,38 +122,38 @@ menu,
 nav,
 section,
 summary {
-  display: block;
+    display: block;
 }
 [hidden] {
-  display: none;
+    display: none;
 }
 a,
 li,
 a:active,
 a:hover {
-  outline: 0 !important;
+    outline: 0 !important;
 }
 img {
-  border: 0;
+    border: 0;
 }
 button::-moz-focus-inner {
-  padding: 0;
-  border: 0;
+    padding: 0;
+    border: 0;
 }
 input[type="submit"],
 button,
-.btn {
+.inner-btn {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -ms-flex-negative: 0;
-        flex-shrink: 0;
+    flex-shrink: 0;
     position: relative;
     -webkit-appearance: none;
     cursor: pointer;
@@ -162,11 +164,12 @@ button,
     text-overflow: ellipsis;
     white-space: nowrap;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open sans', sans-serif;
     -webkit-transition: all ease 0.3s;
     transition: all ease 0.3s;
     text-decoration: none;
 }
+
 select,
 input[type="text"],
 input[type="password"],
@@ -184,11 +187,11 @@ input[type="time"],
 input[type="url"],
 input[type="week"],
 textarea {
-  display: block;
-  width: 100%;
-  outline: none;
-  font-family: 'Roboto', sans-serif;
-  -webkit-appearance: none;
+    display: block;
+    width: 100%;
+    outline: none;
+    font-family: 'Open sans', sans-serif;
+    -webkit-appearance: none;
 }
 select::-ms-clear,
 input[type="text"]::-ms-clear,
@@ -207,39 +210,39 @@ input[type="time"]::-ms-clear,
 input[type="url"]::-ms-clear,
 input[type="week"]::-ms-clear,
 textarea::-ms-clear {
-  display: none;
+    display: none;
 }
 textarea {
-  overflow: auto;
-  resize: none;
+    overflow: auto;
+    resize: none;
 }
 blockquote,
 q {
-  quotes: none;
+    quotes: none;
 }
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
-  content: none;
+    content: '';
+    content: none;
 }
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
 }
 a {
-  -webkit-transition-property: all;
-  transition-property: all;
-  -webkit-transition-timing-function: ease;
-  transition-timing-function: ease;
-  -webkit-transition-duration: 0.1s;
-  transition-duration: 0.1s;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
 }
 ul,
 ol {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
